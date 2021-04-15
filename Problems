@@ -1,0 +1,17 @@
+1a. Resolution is equal to period, which is 1e-7 s. Range for 16 bits is 2^16* 1e-7 = 6.55 ms.
+1b. terminal count value = 3 ms * 1e-7 s = 30,000
+1c. Resolution and range is 2^4 times the ones for figure c. Resolution = 1.6e-6 s. Range = 16 * 6.55 ms = 104.86 ms.
+1d. Resolution does not change from 1e-7 s, but range = 2^32 * 1e-7 = 429.5 s.
+
+2.
+period = 1/11.981 MHz = 8.3465e-8 s.
+range = period * 2^32 = 358.48 s
+timeout time is 300s, so the range is 58.48 s.
+value loaded = the range divided by the length of the period, which is 58.5/8.3465e-8 s = 700667296
+
+4.6a. 3.7/5 = .74% duty cycle 
+4.6b. let the period be 150 ns. Pulse width is 150*.74 = 111 ns.
+
+4.15
+3/ .01 = 300 samples
+300 samples * 4 bits/8bits = 150 samples.
